@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class shirt extends StatelessWidget {
+class outwear extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(

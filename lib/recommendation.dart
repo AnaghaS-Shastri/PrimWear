@@ -18,33 +18,33 @@ class FeedPage extends StatelessWidget {
     return ListView(
       children: [
         SectionWidget(
-          title: "Causes of Plastic Pollution",
-          content: "Learn about the various causes of plastic pollution...",
-          videoUrl: "https://youtu.be/ODni_Bey154?si=6UWlpALShu-rYRy7",
+          title: "Repurposing old clothes",
+          content: "Discover how a old cloth can be repurposed...",
+          videoUrl: " https://youtu.be/VTioflF-Fm4?si=CZAWJHYxi3P8g11P",
           backgroundColor: Colors.white38,
           // Change section background color
           // Add an icon
         ),
         SectionWidget(
-          title: "Impact on Marine Life",
-          content: "Discover how plastic pollution affects marine ecosystems...",
-          videoUrl: "https://youtu.be/qiXRTA0tYoI?feature=shared",
+          title: "Upcycling old clothes",
+          content: "Learn how a old cloth can be upcycled...",
+          videoUrl: " https://youtu.be/BVOhTZpAoEc?si=Pvngd6wMexcgbeHD",
           backgroundColor: Colors.white38,
           // Change section background color
 
         ),
         SectionWidget(
-          title: "Solutions to Plastic Pollution",
-          content: "Explore solutions to reduce plastic pollution...",
-          videoUrl: "https://youtu.be/NTbNRL0XNVQ?feature=shared",
+          title: "Donating old clothes ",
+          content: "The ways that poor people can afford old clothes...",
+          videoUrl: " https://youtu.be/y7yFche0c9s?si=ofQbl8sjWlu5Ui-y",
           backgroundColor: Colors.white38,
           // Change section background color
 
         ),
         SectionWidget(
-          title: "App uses",
-          content: "How to keep plastic out of ocean",
-          videoUrl: "https://youtu.be/HQTUWK7CM-Y?si=-m4HAM12MOR0uSlQ",
+          title: "Recycling old clothes",
+          content: "Recycling old clothes as a fun DIY for weekends stress relief",
+          videoUrl: " https://youtu.be/VTioflF-Fm4?si=CZAWJHYxi3P8g11P",
           backgroundColor: Colors.white38,
           // Change section background color
 

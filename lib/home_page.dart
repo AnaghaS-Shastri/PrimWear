@@ -21,7 +21,7 @@ class WardrobeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wardrobe Organizer',
       theme: ThemeData(
-        primaryColor: const Color.fromARGB(255, 85, 174, 55),
+        primaryColor: const Color.fromARGB(255, 73, 75, 73),
 
       ),
       home: HomePage(),
@@ -42,7 +42,7 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.checkroom),
             title: Text('My Closet'),
-            tileColor: const Color.fromARGB(255, 69, 60, 151),
+            tileColor: const Color.fromARGB(255, 69, 69, 73),
 
 
             onTap: () {
@@ -55,7 +55,7 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.eco),
             title: Text('Sustainability Recommendations'),
-            tileColor: const Color.fromARGB(255, 140, 126, 195),
+            tileColor: const Color.fromARGB(255, 107, 106, 109),
             onTap: () {
               Navigator.push(
                 context,
@@ -64,7 +64,7 @@ class HomePage extends StatelessWidget {
             },
           ),
           ListTile(
-            tileColor: const Color.fromARGB(255, 191, 177, 248),
+            tileColor: const Color.fromARGB(255, 153, 153, 156),
             leading: Icon(Icons.checkroom),
             title: Text('Trade'),
            // tileColor: Colors.yellow,
@@ -80,7 +80,7 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.checkroom),
             title: Text('Upload your dress'),
-            tileColor: Colors.deepPurple ,
+            tileColor: const Color.fromARGB(255, 169, 166, 175) ,
 
 
             onTap: () {
