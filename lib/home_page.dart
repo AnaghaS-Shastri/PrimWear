@@ -1,6 +1,6 @@
 
 import 'package:flutter/material.dart';
-import 'first_page.dart';
+import 'style.dart';
 import 'trade.dart';
 import 'camera.dart';
 import 'closet.dart';
@@ -99,7 +99,7 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => camera()),
+                MaterialPageRoute(builder: (context) => ChatBotPage()),
               );
             },
           ),
