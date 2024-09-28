@@ -29,7 +29,7 @@ class tops extends StatelessWidget {
                       color: Color(0xFFFF7F50), // Coral color
                       child: Center(
                         child: Text(
-                          'Box 1',
+                          'Formal shirts : wardrobe 1, Rack 1',
                           style: TextStyle(color: Colors.white, fontSize: 18),
                         ),
                       ),
@@ -42,7 +42,7 @@ class tops extends StatelessWidget {
                       color: Color(0xFFFF9F70), // Light Coral color
                       child: Center(
                         child: Text(
-                          'Box 2',
+                          'Casual shirts : wardrobe 1, Rack 2',
                           style: TextStyle(color: Colors.white, fontSize: 18),
                         ),
                       ),
@@ -60,7 +60,7 @@ class tops extends StatelessWidget {
                       color: Color(0xFFFFBFA0), // Lighter Coral color
                       child: Center(
                         child: Text(
-                          'Box 3',
+                          'T-Shirts : wardrobe 1, Rack 3',
                           style: TextStyle(color: Colors.white, fontSize: 18),
                         ),
                       ),
@@ -73,7 +73,7 @@ class tops extends StatelessWidget {
                       color: Color(0xFFFFDFC0), // Lightest Coral color
                       child: Center(
                         child: Text(
-                          'Box 4',
+                          'Kurtas : wardrobe 2, Rack 4',
                           style: TextStyle(color: Colors.white, fontSize: 18),
                         ),
                       ),
