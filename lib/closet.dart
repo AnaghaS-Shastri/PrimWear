@@ -12,13 +12,19 @@ Widget build(BuildContext context) {
     body: ListView(
       children: [
         ListTile(
+          tileColor: const Color.fromARGB(255, 141, 39, 32),
+        
+          
+          
           leading: Icon(Icons.category),
-          title: Text('Tops'),
+          title: Text('shirts'),
           onTap: () {
             // Navigate to Tops page
           },
         ),
         ListTile(
+          tileColor: const Color.fromARGB(255, 120, 51, 46),
+        
           leading: Icon(Icons.category),
           title: Text('Bottoms'),
           onTap: () {
@@ -26,6 +32,8 @@ Widget build(BuildContext context) {
           },
         ),
         ListTile(
+          tileColor: const Color.fromARGB(255, 160, 87, 82),
+        
           leading: Icon(Icons.category),
           title: Text('Outerwear'),
           onTap: () {
@@ -33,6 +41,8 @@ Widget build(BuildContext context) {
           },
         ),
         ListTile(
+          tileColor: const Color.fromARGB(255, 182, 115, 111),
+        
           leading: Icon(Icons.category),
           title: Text('Accessories'),
           onTap: () {

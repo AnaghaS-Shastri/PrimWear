@@ -21,7 +21,8 @@ class WardrobeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wardrobe Organizer',
       theme: ThemeData(
-        primaryColor: Colors.cyan,
+        primaryColor: const Color.fromARGB(255, 85, 174, 55),
+
       ),
       home: HomePage(),
     );
@@ -34,13 +35,14 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('PrimWear'),
+         
       ),
       body: ListView(
         children: [
           ListTile(
             leading: Icon(Icons.checkroom),
             title: Text('My Closet'),
-            tileColor: Colors.yellow,
+            tileColor: const Color.fromARGB(255, 69, 60, 151),
 
 
             onTap: () {
@@ -53,7 +55,7 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.eco),
             title: Text('Sustainability Recommendations'),
-            tileColor: Colors.lightGreen,
+            tileColor: const Color.fromARGB(255, 140, 126, 195),
             onTap: () {
               Navigator.push(
                 context,
@@ -62,9 +64,10 @@ class HomePage extends StatelessWidget {
             },
           ),
           ListTile(
+            tileColor: const Color.fromARGB(255, 191, 177, 248),
             leading: Icon(Icons.checkroom),
             title: Text('Trade'),
-            tileColor: Colors.yellow,
+           // tileColor: Colors.yellow,
 
 
             onTap: () {
