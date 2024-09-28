@@ -5,6 +5,7 @@ import 'second_page.dart';
 import 'third_page.dart';
 import 'closet.dart';
 import 'Sustainability.dart';
+import 'recommendation.dart';
 
 
 
@@ -56,7 +57,7 @@ class HomePage extends StatelessWidget {
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => SustainabilityPage()),
+                MaterialPageRoute(builder: (context) => plastic()),
               );
             },
           ),
