@@ -1,11 +1,10 @@
 
-
-
-
 import 'package:flutter/material.dart';
 import 'first_page.dart';
 import 'second_page.dart';
 import 'third_page.dart';
+import 'closet.dart';
+import 'Sustainability.dart';
 
 
 
@@ -21,7 +20,7 @@ class WardrobeApp extends StatelessWidget {
     return MaterialApp(
       title: 'Wardrobe Organizer',
       theme: ThemeData(
-        primarySwatch: Colors.teal,
+        primaryColor: Colors.cyan,
       ),
       home: HomePage(),
     );
@@ -33,13 +32,16 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Wardrobe Organizer'),
+        title: Text('PrimWear'),
       ),
       body: ListView(
         children: [
           ListTile(
             leading: Icon(Icons.checkroom),
             title: Text('My Closet'),
+            tileColor: Colors.yellow,
+
+
             onTap: () {
               Navigator.push(
                 context,
@@ -50,10 +52,24 @@ class HomePage extends StatelessWidget {
           ListTile(
             leading: Icon(Icons.eco),
             title: Text('Sustainability Recommendations'),
+            tileColor: Colors.lightGreen,
             onTap: () {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => SustainabilityPage()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.checkroom),
+            title: Text('Trade'),
+            tileColor: Colors.yellow,
+
+
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => MyClosetPage()),
               );
             },
           ),
@@ -63,88 +79,5 @@ class HomePage extends StatelessWidget {
   }
 }
 
-class MyClosetPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('My Closet'),
-      ),
-      body: ListView(
-        children: [
-          ListTile(
-            leading: Icon(Icons.category),
-            title: Text('Tops'),
-            onTap: () {
-              // Navigate to Tops page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.category),
-            title: Text('Bottoms'),
-            onTap: () {
-              // Navigate to Bottoms page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.category),
-            title: Text('Outerwear'),
-            onTap: () {
-              // Navigate to Outerwear page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.category),
-            title: Text('Accessories'),
-            onTap: () {
-              // Navigate to Accessories page
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
 
-class SustainabilityPage extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Sustainability Recommendations'),
-      ),
-      body: ListView(
-        children: [
-          ListTile(
-            leading: Icon(Icons.recycling),
-            title: Text('Upcycling Ideas'),
-            onTap: () {
-              // Navigate to Upcycling Ideas page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.brush),
-            title: Text('Clothing Care Tips'),
-            onTap: () {
-              // Navigate to Clothing Care Tips page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.shopping_cart),
-            title: Text('Second-hand Shopping'),
-            onTap: () {
-              // Navigate to Second-hand Shopping page
-            },
-          ),
-          ListTile(
-            leading: Icon(Icons.store),
-            title: Text('Eco-friendly Brands'),
-            onTap: () {
-              // Navigate to Eco-friendly Brands page
-            },
-          ),
-        ],
-      ),
-    );
-  }
-}
+
