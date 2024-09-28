@@ -62,17 +62,17 @@ flutter:
 
   
   assets:
-    - images/1-image.jpeg
-    - images/2-image.jpeg
-    - images/3-image.jpeg
-    - images/4-image.jpeg
-    - images/5-image.jpeg
-    - images/6-image.jpeg
-    - images/7-image.jpeg
-    - images/8-image.jpeg
-    - images/9-image.jpeg
-    - images/10-image.jpeg
-    - images/11-image.jpeg
+    - lib/assets/images/1-image.jpeg
+    - lib/assets/images/2-image.jpeg
+    - lib/assets/images/3-image.jpeg
+    - lib/assets/images/4-image.jpeg
+    - lib/assets/images/5-image.jpeg
+    - lib/assets/images/6-image.jpeg
+    - lib/assets/images/7-image.jpeg
+    - lib/assets/images/8-image.jpeg
+    - lib/assets/images/9-image.jpeg
+    - lib/assets/images/10-image.jpeg
+    - lib/assets/images/11-image.jpeg
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

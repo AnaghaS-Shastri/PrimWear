@@ -1,5 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:untitled/tops.dart';
+
+import 'tops.dart';
+import 'outwear.dart';
+
+import 'accessories.dart';
 
 
 
@@ -46,7 +50,7 @@ Widget build(BuildContext context) {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => MyClosetPage()),
+              MaterialPageRoute(builder: (context) => outwear()),
             );// Navigate to Outerwear page
           },
         ),
@@ -58,7 +62,7 @@ Widget build(BuildContext context) {
           onTap: () {
             Navigator.push(
               context,
-              MaterialPageRoute(builder: (context) => MyClosetPage()),
+              MaterialPageRoute(builder: (context) => accessories()),
             );// Navigate to Accessories page
           },
         ),
