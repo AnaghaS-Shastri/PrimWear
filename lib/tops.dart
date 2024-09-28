@@ -11,69 +11,79 @@ void main() {
 class tops extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         appBar: AppBar(
-          title: Text('tops verites'),
-          backgroundColor: Color.fromARGB(255, 248, 247, 247), // Coral color
+          title: Text('2 Rows, 4 Coral Boxes'),
+          backgroundColor: Color(0xFFFF7F50), // Coral color for the AppBar
         ),
-        body: Row(
-          children: [
-            // First Column: Flex = 2.5 (1/10th of space)
-            Expanded(
-              flex: 2,
-              child: Container(
-                color: Color.fromARGB(255, 48, 48, 48), // Coral color
-                child: Center(
-                  child: Text(
-                    'Col 1',
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+        body: Padding(
+          padding: const EdgeInsets.all(20.0),
+          child: Column(
+            children: [
+              // First Row of Coral Boxes
+              Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      height: 250,
+                      color: Color(0xFFFF7F50), // Coral color
+                      child: Center(
+                        child: Text(
+                          'Box 1',
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-              ),
-            ),
-            // Second Column: Flex = 2.5(2/10th of space)
-            Expanded(
-              flex: 2,
-              child: Container(
-                color: Color.fromARGB(255, 81, 80, 79), // Light coral color
-                child: Center(
-                  child: Text(
-                    'Col 2',
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                  SizedBox(width: 10),
+                  Expanded(
+                    child: Container(
+                      height: 250,
+                      color: Color(0xFFFF9F70), // Light Coral color
+                      child: Center(
+                        child: Text(
+                          'Box 2',
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
-            ),
-            // Third Column: Flex = 2.5 (3/10th of space)
-            Expanded(
-              flex: 2,
-              child: Container(
-                color: Color.fromARGB(255, 158, 157, 156), // Lighter coral color
-                child: Center(
-                  child: Text(
-                    'Col 3',
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+              SizedBox(height: 10),
+              // Second Row of Coral Boxes
+              Row(
+                children: [
+                  Expanded(
+                    child: Container(
+                      height: 250,
+                      color: Color(0xFFFFBFA0), // Lighter Coral color
+                      child: Center(
+                        child: Text(
+                          'Box 3',
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
-              ),
-            ),
-            // Fourth Column: Flex = 2.5 (4/10th of space)
-            Expanded(
-              flex: 2,
-              child: Container(
-                color: Color.fromARGB(255, 229, 227, 226), // Lightest coral color
-                child: Center(
-                  child: Text(
-                    'Col 4',
-                    style: TextStyle(color: Colors.white, fontSize: 18),
+                  SizedBox(width: 10),
+                  Expanded(
+                    child: Container(
+                      height: 250,
+                      color: Color(0xFFFFDFC0), // Lightest Coral color
+                      child: Center(
+                        child: Text(
+                          'Box 4',
+                          style: TextStyle(color: Colors.white, fontSize: 18),
+                        ),
+                      ),
+                    ),
                   ),
-                ),
+                ],
               ),
-            ),
-          ],
+            ],
+          ),
         ),
-      ),
     );
   }
 }

@@ -5,10 +5,9 @@ import 'package:url_launcher/url_launcher.dart';
 class plastic extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      home: Scaffold(
+    return Scaffold(
         body: FeedPage(),
-      ),
+
     );
   }
 }

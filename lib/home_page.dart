@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'first_page.dart';
-import 'second_page.dart';
+import 'trade.dart';
 import 'camera.dart';
 import 'closet.dart';
 import 'Sustainability.dart';
@@ -66,20 +66,33 @@ class HomePage extends StatelessWidget {
           ListTile(
             tileColor: const Color.fromARGB(255, 153, 153, 156),
             leading: Icon(Icons.checkroom),
-            title: Text('Trade'),
+            title: Text('Community Exchange'),
            // tileColor: Colors.yellow,
 
 
             onTap: () {
               Navigator.push(
                 context,
-                MaterialPageRoute(builder: (context) => MyClosetPage()),
+                MaterialPageRoute(builder: (context) => MyECommerceApp()),
               );
             },
           ),
           ListTile(
             leading: Icon(Icons.checkroom),
             title: Text('Upload your dress'),
+            tileColor: const Color.fromARGB(255, 169, 166, 175) ,
+
+
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => camera()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.info),
+            title: Text('Style Inspiration'),
             tileColor: const Color.fromARGB(255, 169, 166, 175) ,
 
 
