@@ -2,7 +2,7 @@
 import 'package:flutter/material.dart';
 import 'first_page.dart';
 import 'second_page.dart';
-import 'third_page.dart';
+import 'camera.dart';
 import 'closet.dart';
 import 'Sustainability.dart';
 import 'recommendation.dart';
@@ -74,6 +74,19 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => MyClosetPage()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.checkroom),
+            title: Text('Upload your dress'),
+            tileColor: Colors.deepPurple ,
+
+
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) => camera()),
               );
             },
           ),
