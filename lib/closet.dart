@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/shirt.dart';
 
 
 
@@ -19,7 +20,10 @@ Widget build(BuildContext context) {
           leading: Icon(Icons.category),
           title: Text('shirts'),
           onTap: () {
-            // Navigate to Tops page
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => shirt()),
+            ); // Navigate to Tops page
           },
         ),
         ListTile(
@@ -28,7 +32,10 @@ Widget build(BuildContext context) {
           leading: Icon(Icons.category),
           title: Text('Bottoms'),
           onTap: () {
-            // Navigate to Bottoms page
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => shirt()),
+            );// Navigate to Bottoms page
           },
         ),
         ListTile(
@@ -37,7 +44,10 @@ Widget build(BuildContext context) {
           leading: Icon(Icons.category),
           title: Text('Outerwear'),
           onTap: () {
-            // Navigate to Outerwear page
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => MyClosetPage()),
+            );// Navigate to Outerwear page
           },
         ),
         ListTile(
@@ -46,7 +56,10 @@ Widget build(BuildContext context) {
           leading: Icon(Icons.category),
           title: Text('Accessories'),
           onTap: () {
-            // Navigate to Accessories page
+            Navigator.push(
+              context,
+              MaterialPageRoute(builder: (context) => MyClosetPage()),
+            );// Navigate to Accessories page
           },
         ),
       ],
