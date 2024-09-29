@@ -1,5 +1,5 @@
 # PrimWear
-Ever gone out to shop and brought a clothing that you already have at home? Introducing PrimWeat One app solution to many problems.
+Ever gone out to shop and brought a clothing that you already have at home? Introducing PrimWear, One app solution to many problems.
 
 ## Features
 Virtual Wardrobe: Get to know what is in your wardrobe, using our app.  
