@@ -33,22 +33,29 @@ Flutter installed on your machine. You can download it from Flutter's official w
 Dart SDK installed as part of Flutter.  
 Firebase account and project setup. Follow the steps on Firebase's official website.  
 Android Studio or VS Code installed with Flutter and Dart plugins.  
+
+
 **Step 1:** Clone the Repository  
 git clone https://github.com/yourusername/shield.git  
+
 **Step 2:** Install Dependencies  
 Run the following command to install all the necessary dependencies:
 flutter pub get  
+
 **Step 3:** Configure Firebase  
 Add Firebase to Your Flutter App:  
 Follow the instructions on Firebase's official guide to connect your Flutter app to Firebase.
 Download the google-services.json file for Android and GoogleService-Info.plist for iOS and place them in the appropriate directories (android/app and ios/Runner respectively).
 Enable Firebase Services:  
 Go to your Firebase console and enable the necessary services (e.g., Firestore, Firebase Authentication, Firebase Messaging, etc.).  
+
 **Step 4:** Run the App  
 You can now run the app on an emulator or a physical device:
 flutter run  
+
 ### Deployment  
 #### Android  
+
 Build the APK:  
 Run the following command to build the APK:  
 flutter build apk --release  
