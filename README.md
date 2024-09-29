@@ -21,7 +21,7 @@ Firebase: Employed Firebase for server-side operations.
 Style AI API: Used a chatbot to provide fashion and styling suggestions.
 
 ## Installation
-#### Prerequisites
+### Prerequisites
 Before you begin, ensure you have met the following requirements:
 
 Flutter installed on your machine. You can download it from Flutter's official website.  
@@ -48,8 +48,8 @@ Go to your Firebase console and enable the necessary services (e.g., Firestore, 
 You can now run the app on an emulator or a physical device:
 flutter run  
 
-##### Deployment  
-###### Android  
+#### Deployment  
+##### Android  
 Build the APK:  
 Run the following command to build the APK:  
 flutter build apk --release  
@@ -58,7 +58,7 @@ Follow the official guide to sign the APK.
 Upload to Play Store:
 
 Follow the instructions on the Google Play Console to upload your APK
-##### iOS  
+#### iOS  
 Build the iOS App:  
 Run the following command to build the iOS app:  
  flutter build ios --release  
