@@ -1,11 +1,13 @@
 
 import 'package:flutter/material.dart';
+import 'package:untitled/calender.dart';
 import 'style.dart';
 import 'trade.dart';
 import 'camera.dart';
 import 'closet.dart';
 import 'Sustainability.dart';
 import 'recommendation.dart';
+import 'calender.dart';
 
 
 
@@ -100,6 +102,19 @@ class HomePage extends StatelessWidget {
               Navigator.push(
                 context,
                 MaterialPageRoute(builder: (context) => ChatBotPage()),
+              );
+            },
+          ),
+          ListTile(
+            leading: Icon(Icons.info),
+            title: Text('Analytics'),
+            tileColor: const Color.fromARGB(255, 169, 166, 175) ,
+
+
+            onTap: () {
+              Navigator.push(
+                context,
+                MaterialPageRoute(builder: (context) =>WardrobeApp()),
               );
             },
           ),

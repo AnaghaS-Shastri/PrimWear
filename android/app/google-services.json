@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "322913084248",
+    "project_id": "prim-wear",
+    "storage_bucket": "prim-wear.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:322913084248:android:942b1d8dd058e8300cfb2d",
+        "android_client_info": {
+          "package_name": "com.primwear.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYmCbTpIcJ32GWpbJ62mTnlUN1n4OOec"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
