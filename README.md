@@ -20,13 +20,7 @@ Style Inspiration: Ask Style AI for fashion trends and to create a different loo
     <img src="https://github.com/user-attachments/assets/b3778e7b-8b39-415f-859a-1c2699065f48" alt="Image 6" style="width: 200px; margin-right: 10px;">
 </div>
 
-![image])
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
-![image]()
+
 
 ## Tech Stack
 Flutter: The app is built using Flutter, Google's UI toolkit.  
@@ -44,11 +38,15 @@ Android Studio or VS Code installed with Flutter and Dart plugins.
 
 
 **Step 1:** Clone the Repository  
-git clone https://github.com/yourusername/PrimWear.git  
+ ```bash
+git clone https://github.com/yourusername/PrimWear.git
+ ```
 
 **Step 2:** Install Dependencies  
 Run the following command to install all the necessary dependencies:
-flutter pub get  
+ ```bash
+flutter pub get
+ ```
 
 **Step 3:** Configure Firebase  
 Add Firebase to Your Flutter App:  
@@ -59,13 +57,17 @@ Go to your Firebase console and enable the necessary services (e.g., Firestore, 
 
 **Step 4:** Run the App  
 You can now run the app on an emulator or a physical device:
-flutter run  
+ ```bash
+flutter run
+ ```
 
 #### Deployment  
 ##### Android  
 Build the APK:  
-Run the following command to build the APK:  
-flutter build apk --release  
+Run the following command to build the APK:
+ ```bash
+flutter build apk --release
+ ```
 Sign the APK:  
 Follow the official guide to sign the APK.
 Upload to Play Store:
@@ -73,8 +75,10 @@ Upload to Play Store:
 Follow the instructions on the Google Play Console to upload your APK
 #### iOS  
 Build the iOS App:  
-Run the following command to build the iOS app:  
- flutter build ios --release  
+Run the following command to build the iOS app:
+ ```bash
+ flutter build ios --release
+ ```
 Code Signing:  
 Ensure that you have an Apple Developer account and follow the official guide for code signing.  
 Upload to App Store:  
