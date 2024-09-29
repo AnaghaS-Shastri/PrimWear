@@ -7,13 +7,26 @@ Sustainabilty Hacks: Get sustainable by watching the content given in our app.
 Community Exchange: Donate, sell, exchange, thrift your clothes with the PRIMWEAR community.  
 Style Inspiration: Ask Style AI for fashion trends and to create a different look from our collection of clothes.  
 
-![image](https://github.com/user-attachments/assets/3c0431fe-676b-42a6-ae64-6e6ae1c61861)
-![image](https://github.com/user-attachments/assets/91d03a1d-923f-4155-9d07-9d459c4e53da)
-![image](https://github.com/user-attachments/assets/9e3e4997-2537-4605-8f03-cd92365d19d8)
-![image](https://github.com/user-attachments/assets/3c8250b6-1b10-4053-8125-008f4a4c2c50)
-![image](https://github.com/user-attachments/assets/2fb8b83f-5632-4dc5-9ed6-a3a75799a7f4)
-![image](https://github.com/user-attachments/assets/57f0f491-cb9b-4b01-a770-1ad9bd610a72)
-![image](https://github.com/user-attachments/assets/b3778e7b-8b39-415f-859a-1c2699065f48)
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/user-attachments/assets/3c0431fe-676b-42a6-ae64-6e6ae1c61861" alt="Image 1" style="width: 200px; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/91d03a1d-923f-4155-9d07-9d459c4e53da" alt="Image 2" style="width: 200px; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/9e3e4997-2537-4605-8f03-cd92365d19d8" alt="Image 3" style="width: 200px; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/3c8250b6-1b10-4053-8125-008f4a4c2c50" alt="Image 3" style="width: 200px; margin-right: 10px;">
+</div>
+
+<div style="display: flex; flex-wrap: wrap;">
+    <img src="https://github.com/user-attachments/assets/2fb8b83f-5632-4dc5-9ed6-a3a75799a7f4" alt="Image 4" style="width: 200px; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/57f0f491-cb9b-4b01-a770-1ad9bd610a72" alt="Image 5" style="width: 200px; margin-right: 10px;">
+    <img src="https://github.com/user-attachments/assets/b3778e7b-8b39-415f-859a-1c2699065f48" alt="Image 6" style="width: 200px; margin-right: 10px;">
+</div>
+
+![image])
+![image]()
+![image]()
+![image]()
+![image]()
+![image]()
+![image]()
 
 ## Tech Stack
 Flutter: The app is built using Flutter, Google's UI toolkit.  
