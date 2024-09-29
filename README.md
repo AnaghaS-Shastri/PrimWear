@@ -31,7 +31,7 @@ Android Studio or VS Code installed with Flutter and Dart plugins.
 
 
 **Step 1:** Clone the Repository  
-git clone https://github.com/yourusername/shield.git  
+git clone https://github.com/yourusername/PrimWear.git  
 
 **Step 2:** Install Dependencies  
 Run the following command to install all the necessary dependencies:
